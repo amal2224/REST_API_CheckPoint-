@@ -1,0 +1,26 @@
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;   
+}
+.contactList{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin:2%;
+}
+form div{
+    margin: 2%;
+}
